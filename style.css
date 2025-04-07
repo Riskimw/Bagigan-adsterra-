@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(255, 255, 255); /* Warna latar belakang kuning */
+  color: #333; /* Warna teks (opsional) */
+  font-family: Arial, sans-serif; /* Gaya font (opsional) */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.hero {
+  background: url("https://via.placeholder.com/1920x600") no-repeat center
+    center/cover;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 100px;
+}
+
+.services .card {
+  transition: transform 0.3s;
+}
+
+.services .card:hover {
+  transform: scale(1.05);
+}
+
+.iklan {
+  text-decoration: none;
+}
+
+footer {
+  background: #f8f9fa;
+  padding: 10px 0;
+  text-align: center;
+}
